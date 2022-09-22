@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.codeforiraq.autheticationcrud">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="mkhalfate"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.AddData"></activity>
+        <activity android:name=".UI.EditData" />
+        <activity android:name=".UI.Editcar" />
+        <activity android:name=".UI.RegisterActivity" />
+        <activity android:name=".UI.LoginActivity" />
+        <activity android:name=".ViewAdmin" />
+        <activity android:name=".viewalluser" />
+        <activity android:name=".viewallcar" />
+        <activity android:name=".viewallvio"/>
+        <activity android:name=".viewSearch"/>
+        <activity android:name=".driverviolation"/>
+        <activity android:name=".addviolation"/>
+        <activity android:name=".Editviolation"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="mkhalafate"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

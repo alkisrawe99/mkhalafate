@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewAdmin">
+
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/buttonsearch"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="SEARCH FOR VIOLATION"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/viewuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view user"
+        tools:ignore="HardcodedText"
+        />
+
+
+    <Button
+        android:id="@+id/buttonviewcar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view car"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonviewviolations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view violations"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/buttonaddviolations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add violations TYPE"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/addviolation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add violation"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
